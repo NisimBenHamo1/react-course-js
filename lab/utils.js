@@ -7,3 +7,7 @@ export const average = (...numbers) =>
     }
     return sum / numbers.length;
 };
+
+const formatGrade = grade => `${grade} / 100`;
+export default formatGrade;
+
